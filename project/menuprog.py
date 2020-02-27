@@ -9,8 +9,8 @@ class Empsal:
    
     def __init__(self, root):
 
-        self.main_lbl=Label(root, text='Experience Vs.Salary Linear Regression and Predict Salary Based On Experience', fg='red', font=('Arial', -22, 'bold underline'))
-        self.main_lbl.place(x=350, y=350)
+        self.main_lbl=Label(root, text='Experience Vs.Salary Linear Regression \n and Predict Salary Based On Experience', fg='red', font=('Arial', -22, 'bold underline'))
+        self.main_lbl.place(x=150, y=200)
         
         self.callPython = ""
         if platform == "linux" or platform == "linux2":
